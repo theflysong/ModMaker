@@ -4,6 +4,7 @@ using namespace std;
 
 void init(){
 	makers["Item"]=MakeBasicItem;
+	makers["ItemFood"]=MakeBasicItemFood; 
 } 
 
 int main()

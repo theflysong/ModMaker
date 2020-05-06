@@ -21,8 +21,8 @@ const string BasicItemFood=(string)
         this.setRegistryName(\"%REGISTRY_NAME%\");\n\
         this.setUnlocalizedName(\"%UNLOACALIZED_NAME%\");\n\
         this.setCreativeTab(CreativeTabs.FOOD);\n\
-    }
-}"
+    }\n\
+}"; 
 
 void MakeBasicItem();
 void MakeBasicItemFood();
