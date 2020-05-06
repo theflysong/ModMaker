@@ -16,3 +16,6 @@
 *.win
 *.dev
 *.gch
+
+#other
+*.java
