@@ -1,10 +1,12 @@
 #include"head.h"
 #include"ITEMS.h"
+#include"BLOCKS.h"
 using namespace std;
 
 void init(){
 	makers["Item"]=MakeBasicItem;
-	makers["ItemFood"]=MakeBasicItemFood; 
+	makers["ItemFood"]=MakeBasicItemFood;
+	makers["Block"]=MakeBasicBlock;
 } 
 
 int main()
