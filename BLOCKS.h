@@ -3,15 +3,10 @@
 
 #include "head.h"
 
-const string BasicBlock=(string)
-"public class %CLASSNAME% extends Block {\n\
+const string BasicBlock=(string)"\
+public class %CLASSNAME% extends Block {\n\
     public %CLASSNAME%() {\n\
-        super(%MATERIAL%);\n\
-        this.setUnlocalizedName(\"%UNLOACALIZED_NAME%\");\n\
-        this.setRegistryName(\"%REGISTRY_NAME%\");\n\
-        this.setHardness(%HARDNESS%);\n\
-        this.setCreativeTab(%CREATIVETABS%);\n\
-        this.setLightLevel(%LIGHTLEVEL%F);\n\
+       super(Properties.create(%MATERIAL%).hardnessAndResistance(%HARDNESS%).lightLevel(%LIGHTLEVEL%));\n\
     }\n\
 }";
 
