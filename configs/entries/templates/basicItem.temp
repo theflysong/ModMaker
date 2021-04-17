@@ -1,0 +1,1 @@
+public static RegistryObject<Item> %UPPER(%{ITEM_ID}) = REGISTRY.register("%{ITEM_ID}", () -> new Item(new Item.Properties().group(%{GROUP})[%EXIST(%{MAX_STACK})::.maxStackSize(%{MAX_STACK})][%EXIST(%{MAX_DAMAGE})::.defaultMaxDamage(%{MAX_DAMAGE})]);
