@@ -55,12 +55,13 @@ class ConfPrimitive : public ConfElement {
 	std::string value;
 public:
 	ConfPrimitive();
+	ConfPrimitive(std::string value);
 	std::string Get();
 	void Set(std::string value);
 };
 
 namespace ConfParser {
-	ConfObject parse(std::string config);
+	ConfObject* parse(std::istream& in);
 }
 
 #endif
